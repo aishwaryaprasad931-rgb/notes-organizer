@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Notes Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Online Notes Organizer</h1>
+        <p>Organize your study notes in one place</p>
+    </header>
+
+    <main>
+        <section class="add-note">
+            <h2>Add New Note</h2>
+
+            <input type="text" placeholder="Note title">
+            
+            <select>
+                <option>Select Subject</option>
+                <option>Data Structures</option>
+                <option>Python</option>
+                <option>Java</option>
+                <option>DBMS</option>
+                <option>Operating System</option>
+            </select>
+
+            <textarea placeholder="Write your notes here..."></textarea>
+
+            <button>Add Note</button>
+        </section>
+
+        <section class="notes">
+            <h2>My Notes</h2>
+
+            <div class="note-card">
+                <h3>Data Structures</h3>
+                <p>Important concepts of arrays, stacks and queues.</p>
+                <span>Subject: DSA</span>
+            </div>
+
+            <div class="note-card">
+                <h3>Python Basics</h3>
+                <p>Variables, data types, loops and functions.</p>
+                <span>Subject: Python</span>
+            </div>
+
+            <div class="note-card">
+                <h3>DBMS</h3>
+                <p>Introduction to databases, tables and SQL queries.</p>
+                <span>Subject: DBMS</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Online Notes Organizer</p>
+    </footer>
+
+</body>
+</html>
